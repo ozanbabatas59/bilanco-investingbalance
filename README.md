@@ -1,2 +1,6 @@
-# bilanco-investingbalance
-Bilanço Python Uygulaması, Investing balance application
+Python ile finansal tablo analizi ve görselleştirmeye yönelik bu kod, kullanıcıların hisse senedi sembolü girerek Yahoo Finance üzerinden bilanço verilerini almasını sağlar. Veriler daha sonra pandas DataFrame formatına dönüştürülür ve sütun başlıkları yıllık bilgilerden yalnızca yıla çevrilir. Önceden tanımlanmış Türkçe eşlemelerle satır indeksleri anlamlı bir şekilde çevrilir. Eksik veriler 0 olarak işlenir ve analyze_balance_sheet() işleviyle finansal oranlar hesaplanır; net borç, toplam borç ve nakit benzerleri gibi kritik ölçümler değerlendirilerek yatırım önerileri sunulur. Son olarak, mali tavsiyelerin dağılımını göstermek için bir pasta grafiği oluşturulur. Kullanıcılar bu kodu kullanarak finansal kararlar alabilir ancak doğrulamalarını ve veri doğruluğunu sağlamaları gerektiğini unutmamalıdırlar.
+
+Koddan kaynaklanan sorunların kullanıcının sorumluluğunda olduğunu belirten bir sorumluluk reddi beyanı içerir.
+
+Yasal Uyarı: Bu kodun kullanılmasından doğabilecek her türlü sorun kullanıcının sorumluluğundadır. Finansal kararlar vermeden önce verilerin doğruluğunu sağlayın ve sonuçları doğrulayın.
+Bu kurulum, kullanıcıların finansal tabloları analiz etmesine, yatırım önerileri almasına ve Python'un güçlü veri analizi ve görselleştirme kitaplıklarını kullanarak bunları etkili bir şekilde görselleştirmesine olanak tanır.
